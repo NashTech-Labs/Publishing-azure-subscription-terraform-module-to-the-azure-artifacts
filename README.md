@@ -1,4 +1,3 @@
-# DuckCreek.TerraformModule.subscription
 This module can create Azure Subscriptions under an Microsoft Customer Agreement (MCA). 
 
 ## Prerequisites
@@ -19,13 +18,12 @@ From your local, generate and Set up SSH key pair for Github.
 Clone this Git repo to your local machine.
 
 ```bash
-git@github.com:duck-creek/DuckCreek.TerraformModule.subscriptioncreation.git
-```
+git@github.com:knoldus/Publishing-azure-subscription-terraform-module-to-the-azure-artifacts.git```
 
 Change into the directory containing the module.
 
 ```bash
-cd tf.subscription
+cd module
 
 ```
 
