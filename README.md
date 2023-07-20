@@ -52,3 +52,9 @@ terraform apply
 | azure_tenant_id            | string | app registration tenant_id            | ""                                             |
 | azure_subscription_id      | string | subscription_id                       | ""                                             |
 | management_group_association| string | management group                      | /providers/Microsoft.Management/managementGroups/IAC-Compute |
+
+
+## for publishing this terraform module to the azure artifact you need to follow these steps
+1. Go to the Azure DevOps
+2. create the new pipeline where you need to choose the existing pipeline and specify the path of your yaml file
+3. Run the pipeline with the desired version of your module(you need to change your version in the metadata.yaml)
